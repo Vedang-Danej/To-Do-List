@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #997300;
+}
+
+#container {
+  margin: auto;
+  margin-top: 18rem;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  max-width: 50rem;
+  height: 26.5rem;
+  background-color: white;
+  line-height: 1.6;
+}
+h1 {
+  font-family: "Yeon Sung", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+}
+p {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: lighter;
+  color: #333;
+}
+.list {
+  height: 10rem;
+  overflow-y: scroll;
+}
+
+ul {
+  margin-left: 0.2rem;
+}
+
+/* li {
+  text-decoration: line-through;
+} */
+input {
+  width: 30rem;
+  font-family: "Yeon Sung", cursive;
+  height: 2.2rem;
+  font-size: 1.2rem;
+  margin-right: 0.7rem;
+  outline: none;
+}
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+  font-family: "Big Shoulders Stencil Text", cursive;
+}
+.add {
+  background-color: #6699ff;
+}
+.add:hover {
+  background-color: #99bbff;
+}
+.clear-completed {
+  background-color: #9933ff;
+}
+.clear-completed:hover {
+  background-color: #b366ff;
+}
+.clear-all {
+  background-color: #b3003b;
+}
+.clear-all:hover {
+  background-color: #e6004c;
+}
+.items {
+  font-family: "Yeon Sung", cursive;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.list-items:hover {
+  cursor: pointer;
+  color: #cc9900;
+}
+.fas {
+  margin-right: 0.2rem;
+}
+.input-and-button {
+  margin-bottom: 1rem;
+}
+.bottom-buttons {
+  margin-top: 1rem;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.list-text {
+  font-family: "Yeon Sung", cursive;
+  width: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+  font-style: normal;
+  color: #ccc;
+}
