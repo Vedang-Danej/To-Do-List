@@ -40,14 +40,15 @@ const addNewItem = function (e) {
   localStorage.setItem("data", JSON.stringify(state));
 };
 const crossItem = function (e) {
-  if (e.target.classList.contains("list-items"))
+  if (e.target.classList.contains("list-items")) {
     e.target.classList.add("line-through");
-  state.forEach((data) => {
-    if (data.text === e.target.textContent) {
-      data.crossed = true;
-    }
-  });
-  localStorage.setItem("data", JSON.stringify(state));
+    state.forEach((data) => {
+      if (data.text === e.target.textContent) {
+        data.crossed = true;
+      }
+    });
+    localStorage.setItem("data", JSON.stringify(state));
+  }
 };
 const clearAll = function () {
   listItemsArea.innerHTML = "";
